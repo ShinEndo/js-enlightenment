@@ -29,5 +29,7 @@ const Person = function(living,age,gender){
 
 const cody_01 = new Person(true,33,'male');
 console.log(cody_01);
+console.log(typeof cody_01);
+console.log(cody_01.constructor);
 
 
